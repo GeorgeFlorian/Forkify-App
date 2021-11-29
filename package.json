@@ -1,23 +1,24 @@
 {
-  "name": "forkify",
+  "name": "forkify-app",
   "version": "1.0.0",
-  "description": "Recipe application",
-  "main": "index.js",
+  "description": "",
+  "default": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GeorgeFlorian/Forkify-App.git"
   },
-  "keywords": [
-    "forkify",
-    "app"
-  ],
   "author": "Sloata George-Florian",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GeorgeFlorian/Forkify-App/issues"
   },
-  "homepage": "https://github.com/GeorgeFlorian/Forkify-App#readme"
+  "homepage": "https://github.com/GeorgeFlorian/Forkify-App#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeFlorian/Forkify-App.git"
+  },
+  "keywords": [
+    "forkify",
+    "app"
+  ],
+  "author": "Sloata George-Florian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeFlorian/Forkify-App/issues"
+  },
+  "homepage": "https://github.com/GeorgeFlorian/Forkify-App#readme"
+}

@@ -4,8 +4,8 @@
   "description": "",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "core-js": "^3.19.2",
+    "fractional": "^1.0.0",
     "regenerator-runtime": "^0.13.9"
   }
 }

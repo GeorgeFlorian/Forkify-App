@@ -31,7 +31,7 @@ class RecipeView extends View {
     });
   }
 
-  #generateMarkupIngredients(ing) {
+  _generateMarkupIngredients(ing) {
     return `
         <li class="recipe__ingredient">
         <svg class="recipe__icon">
@@ -112,7 +112,7 @@ class RecipeView extends View {
         <h2 class="heading--2">Recipe ingredients</h2>
         <ul class="recipe__ingredient-list">
             ${this._data.ingredients
-              .map(this.#generateMarkupIngredients)
+              .map(this._generateMarkupIngredients)
               .join('')}
         </ul>
         </div>

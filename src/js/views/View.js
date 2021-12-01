@@ -4,7 +4,7 @@ import icons from 'url:../../img/icons.svg';
 export default class View {
   _data;
 
-  #clear() {
+  _clear() {
     this._parentElement.innerHTML = '';
   }
   /**
@@ -22,7 +22,7 @@ export default class View {
     this._data = data;
     const markup = this._generateMarkup();
     if (!render) return markup;
-    this.#clear();
+    this._clear();
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 
@@ -78,7 +78,7 @@ export default class View {
             <p>${message}</p>
           </div> 
     `;
-    this.#clear();
+    this._clear();
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 
@@ -93,7 +93,7 @@ export default class View {
       <p>${message}</p>
     </div>
     `;
-    this.#clear();
+    this._clear();
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 }

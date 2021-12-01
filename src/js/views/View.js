@@ -1,5 +1,5 @@
-import { mark } from 'regenerator-runtime';
 import icons from 'url:../../img/icons.svg';
+import { Fraction } from 'fractional';
 
 export default class View {
   _data;
